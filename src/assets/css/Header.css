@@ -10,3 +10,13 @@
 .logo-PE {
     float: left;
 }
+
+.welcome{
+    text-align: center;
+}
+
+.date{
+    float: right;
+    text-align: right;
+    margin: 2rem;
+}
