@@ -1,0 +1,25 @@
+.btn1 {
+    background-color: #81d4fa;
+}
+
+.btn2 {
+    background-color: #0277bd;
+}
+
+.btn3 {
+    background-color: #00acc1;
+}
+
+.btn1, .btn2, .btn3 {
+    margin: 2rem;
+    padding: 3rem !important;
+    color: #fff;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover {
+    color: #fff !important;
+}
+
+.btn1:focus, .btn2:focus, .btn3:focus {
+    color: #fff !important;
+}
