@@ -3,6 +3,7 @@ import './assets/css/App.css';
 import MainPage from "./components/MainPage";
 import Header from "./components/Header";
 import MainMenuAccount from "./components/MainMenuAccount";
+import Maintenance from "./components/Maintenance";
 import Actualise from "./components/Actualise";
 import ActualiseTuto from "./components/ActualiseTuto";
 import {Route, Switch} from "react-router";
@@ -20,6 +21,7 @@ class App extends Component {
                                 <Switch>
                                     <Route exact path="/" component={MainPage}/>
                                     <Route exact path="/gotAccount" component={MainMenuAccount}/>
+                                    <Route exact path="/maintenance" component={Maintenance}/>
                                     <Route exact path="/actualise" component={Actualise}/>
                                     <Route exact path="/tutorialActualise" component={ActualiseTuto}/>
                                 </Switch>
