@@ -15,8 +15,8 @@ class MainMenuAccount extends Component {
                     <div className="col-xs-6 desc-area">
                         <h4 className={"col-xs-12"}>Dates d'actualisation possibles.</h4>
                         <h4 className={"col-xs-12 mt"}>Je suis formé et souhaite rechercher des offres d'emploi dans mon domaine.</h4>
-                        <h4 className={"col-xs-12 mt-1"}>J'aimerais trouver la formation et le métier qui me correspondent, créer mon entreprise ou même travailler à l'étranger</h4>
-                        <h4 className={"col-xs-12 mt-2"}>Je veux créer ou modifier mon CV, trouver une formation, consulter mes paiements, imprimer mes attestations, signaler un changement</h4>
+                        <h4 className={"col-xs-12 mt-1"}>J'aimerais trouver la formation et le métier qui me correspondent, créer mon entreprise ou même travailler à l'étranger.</h4>
+                        <h4 className={"col-xs-12 mt-2"}>Je veux créer ou modifier mon CV, trouver une formation, consulter mes paiements, imprimer mes attestations, signaler un changement.</h4>
                     </div>
                 </div>
             </div>
