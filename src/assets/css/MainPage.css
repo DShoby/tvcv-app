@@ -10,6 +10,10 @@
     background-color: #00acc1;
 }
 
+.btn4{
+    background-color: #29b6f6;
+}
+
 .btn0{
     background-color: #ef5350;
 }
@@ -20,17 +24,17 @@
     background-color: #ffebee;
 }
 
-.btn1, .btn2, .btn3, .btn0 {
+.btn1, .btn2, .btn3, .btn0, .btn4 {
     margin: 2rem;
     padding: 3rem !important;
     color: #fff;
 }
 
-.btn1:hover, .btn2:hover, .btn3:hover, .btn0:hover {
+.btn1:hover, .btn2:hover, .btn3:hover, .btn0:hover, .btn4:hover {
     color: #fff !important;
 }
 
-.btn1:focus, .btn2:focus, .btn3:focus, .btn0:focus {
+.btn1:focus, .btn2:focus, .btn3:focus, .btn0:focus, .btn4:focus {
     color: #fff !important;
 }
 
