@@ -1,13 +1,22 @@
 import React, {Component} from 'react';
 import '../assets/css/MainMenuAccount.css';
+import {Link} from "react-router-dom";
 
 class MainMenuAccount extends Component {
     render() {
         return (
             <div className={"content-area"}>
+                <Link to={"/"}>
+                <button className={"back-btn btn btn-lg col-xs-1"}>Retour</button>
+                </Link>
+                <Link to={'/'}>
+                    <button className={"btn btn-lg quit col-xs-1"}>Quitter</button>
+                </Link>
                 <div className={"col-xs-10 col-xs-offset-1"}>
                     <div className="col-xs-6 btn-grp-1">
+                        <Link to={"/actualise"}>
                         <button className="btn1 btn btn-lg col-xs-12">Je m'actualise</button>
+                        </Link>
                         <button className="btn4 btn btn-lg col-xs-12">Je recherche des offres d'emploi</button>
                         <button className="btn2 btn btn-lg col-xs-12">J'accède à l'Emploi Store</button>
                         <button className="btn3 btn btn-lg col-xs-12">J'accède à mon espace personnel</button>

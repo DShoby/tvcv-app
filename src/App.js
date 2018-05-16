@@ -4,6 +4,8 @@ import MainPage from "./components/MainPage";
 import Header from "./components/Header";
 import MainMenuAccount from "./components/MainMenuAccount";
 import Maintenance from "./components/Maintenance";
+import Actualise from "./components/Actualise";
+import ActualiseTuto from "./components/ActualiseTuto";
 import {Route, Switch} from "react-router";
 import {BrowserRouter} from "react-router-dom";
 
@@ -20,6 +22,8 @@ class App extends Component {
                                     <Route exact path="/" component={MainPage}/>
                                     <Route exact path="/gotAccount" component={MainMenuAccount}/>
                                     <Route exact path="/maintenance" component={Maintenance}/>
+                                    <Route exact path="/actualise" component={Actualise}/>
+                                    <Route exact path="/tutorialActualise" component={ActualiseTuto}/>
                                 </Switch>
                             </div>
                         </div>
