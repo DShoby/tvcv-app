@@ -12,7 +12,7 @@ class App extends Component {
             <BrowserRouter>
                 <div>
                     {
-                        <div>
+                        <div className={"app-content"}>
                             <Header/>
                             <div className="content">
                                 <Switch>

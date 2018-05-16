@@ -1,6 +1,4 @@
-body {
-    background-color: #e1f5fe;
+.content, .app-content{
+    width: 100%;
+    height: 100%;
 }
-
-
-

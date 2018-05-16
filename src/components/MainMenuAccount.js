@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
+import '../assets/css/MainMenuAccount.css';
 
 class MainMenuAccount extends Component {
     render() {
         return (
-            <h3>MAIN MENU</h3>
+            <div className={"content-area"}>
+
+            </div>
         );
     }
 }
