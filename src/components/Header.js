@@ -29,6 +29,7 @@ class Header extends Component {
                     Bienvenue à l'agence de Services et Déploiements de Proximité
                 </h4>
                 <h4 className="date">{this.state.date}</h4>
+                <button className={"btn btn-lg danger quit"}>Quitter</button>
             </div>
         );
     }
