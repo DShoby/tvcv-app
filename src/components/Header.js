@@ -24,7 +24,7 @@ class Header extends Component {
     render() {
         return (
             <div className="navbar navbar-default">
-                <img src={logo} alt="logo" className="logo-PE"/>
+                <a href="/"><img src={logo} alt="logo" className="logo-PE"/></a>
                 <h4 className="welcome col-xs-10">
                     Bienvenue à l'agence de Services et Déploiements de Proximité
                 </h4>
