@@ -8,11 +8,15 @@ class MainPage extends Component {
             <div className="row">
                 <div className="col-xs-10 col-xs-offset-1">
                     <div className="col-xs-8 col-xs-offset-2">
-                        <button className="btn1 btn btn-lg col-xs-6 col-xs-offset-3">Je n'ai pas de compte, m'inscrire</button>
+                        <Link to={"/maintenance"}>
+                            <button className="btn1 btn btn-lg col-xs-6 col-xs-offset-3">Je n'ai pas de compte, m'inscrire</button>
+                        </Link>
                         <Link to={"/gotAccount"}>
                             <button className="btn2 btn btn-lg col-xs-6 col-xs-offset-3">J'ai déjà un compte, me connecter</button>
                         </Link>
-                        <button className="btn3 btn btn-lg col-xs-6 col-xs-offset-3">J'avais un compte, me réinscrire</button>
+                        <Link to={"/maintenance"}>
+                            <button className="btn3 btn btn-lg col-xs-6 col-xs-offset-3">J'avais un compte, me réinscrire</button>
+                        </Link>
                     </div>
                 </div>
             </div>

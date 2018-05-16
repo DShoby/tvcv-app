@@ -3,6 +3,7 @@ import './assets/css/App.css';
 import MainPage from "./components/MainPage";
 import Header from "./components/Header";
 import MainMenuAccount from "./components/MainMenuAccount";
+import Maintenance from "./components/Maintenance";
 import {Route, Switch} from "react-router";
 import {BrowserRouter} from "react-router-dom";
 
@@ -18,6 +19,7 @@ class App extends Component {
                                 <Switch>
                                     <Route exact path="/" component={MainPage}/>
                                     <Route exact path="/gotAccount" component={MainMenuAccount}/>
+                                    <Route exact path="/maintenance" component={Maintenance}/>
                                 </Switch>
                             </div>
                         </div>
