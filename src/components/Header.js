@@ -7,11 +7,7 @@ class Header extends Component {
     state = {
         date: ''
     };
-
-    constructor(props) {
-        super(props);
-    }
-
+    
     componentWillMount() {
         let dateFormatted = new Date();
         dateFormatted = dateFormatted.getDate() + '/' + (dateFormatted.getMonth() + 1) + '/' + dateFormatted.getFullYear();

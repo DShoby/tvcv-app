@@ -1,0 +1,22 @@
+.mt1{
+    margin-top: 1rem!important;
+}
+
+.help-btn1, .help-btn1:hover, .help-btn1:focus{
+    color: #fff!important;
+    background-color: #f0ad4e;
+}
+
+.help-btn, .help-btn:hover, .help-btn:focus{
+    color: #fff!important;
+    background-color: #5cb85c;
+}
+
+form, label{
+    color: #0f0f0f!important;
+}
+
+.validate, .validate:hover, .validate:focus{
+    color: #fff!important;
+    background-color: #f44336;
+}
