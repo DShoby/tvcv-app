@@ -1,9 +1,25 @@
 import React, {Component} from 'react';
+import '../assets/css/MainMenuAccount.css';
 
 class MainMenuAccount extends Component {
     render() {
         return (
-            <h3>MAIN MENU</h3>
+            <div className={"content-area"}>
+                <div className={"col-xs-10 col-xs-offset-1"}>
+                    <div className="col-xs-6 btn-grp-1">
+                        <button className="btn1 btn btn-lg col-xs-12">Je m'actualise</button>
+                        <button className="btn4 btn btn-lg col-xs-12">Je recherche des offres d'emploi</button>
+                        <button className="btn2 btn btn-lg col-xs-12">J'accède à l'Emploi Store</button>
+                        <button className="btn3 btn btn-lg col-xs-12">J'accède à mon espace personnel</button>
+                    </div>
+                    <div className="col-xs-6 desc-area">
+                        <h4 className={"col-xs-12"}>Dates d'actualisation possibles.</h4>
+                        <h4 className={"col-xs-12 mt"}>Je suis formé et souhaite rechercher des offres d'emploi dans mon domaine.</h4>
+                        <h4 className={"col-xs-12 mt-1"}>J'aimerais trouver la formation et le métier qui me correspondent, créer mon entreprise ou même travailler à l'étranger</h4>
+                        <h4 className={"col-xs-12 mt-2"}>Je veux créer ou modifier mon CV, trouver une formation, consulter mes paiements, imprimer mes attestations, signaler un changement</h4>
+                    </div>
+                </div>
+            </div>
         );
     }
 }
