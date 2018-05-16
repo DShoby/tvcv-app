@@ -10,7 +10,7 @@ class MainMenuAccount extends Component {
                 <button className={"back-btn btn btn-lg col-xs-1"}>Retour</button>
                 </Link>
                 <Link to={'/'}>
-                    <button className={"btn btn-lg quit col-xs-1"}>Quitter</button>
+                    <button className={"btn btn-lg quit col-xs-1"}>Accueil</button>
                 </Link>
                 <div className={"col-xs-10 col-xs-offset-1"}>
                     <div className="col-xs-6 btn-grp-1">
