@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import '../assets/css/PersonnalSpace.css';
 import {Link} from "react-router-dom";
 
 class PersonnalSpace extends Component {
@@ -12,7 +11,7 @@ class PersonnalSpace extends Component {
                 <Link to={'/'} className={"col-xs-1 col-xs-offset-10"}>
                     <button className={"btn btn-lg quit col-xs-12"}>Accueil</button>
                 </Link>
-                <div className={"col-xs-10 col-xs-offset-1 mt1"}>
+                <div className={"col-xs-10 mt1"}>
                     <h3 className={"text-center"}>Mon espace personnel</h3>
                     <div className={"col-xs-10 col-xs-offset-3"}>
                         <div className="col-xs-8 col-ws-offet-2 btn-grp-1">

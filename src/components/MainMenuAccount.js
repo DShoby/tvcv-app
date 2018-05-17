@@ -12,13 +12,17 @@ class MainMenuAccount extends Component {
                 <Link to={'/'} className={"col-xs-1 col-xs-offset-10"}>
                     <button className={"btn btn-lg quit col-xs-12"}>Accueil</button>
                 </Link>
-                <div className={"col-xs-10 col-xs-offset-1"}>
+                <div className={"col-xs-10 col-xs-offset-0"}>
                     <div className="col-xs-6 btn-grp-1">
                         <Link to={"/actualise"}>
                         <button className="btn1 btn btn-lg col-xs-12">Je m'actualise</button>
                         </Link>
-                        <button className="btn4 btn btn-lg col-xs-12">Je recherche des offres d'emploi</button>
-                        <button className="btn2 btn btn-lg col-xs-12">J'accède à l'Emploi Store</button>
+                        <Link to={"/maintenance"}>
+                        <   button className="btn4 btn btn-lg col-xs-12">Je recherche des offres d'emploi</button>
+                        </Link>
+                        <form action="https://www.emploi-store.fr/portail/accueil" target="_blank">
+                            <button className="btn2 btn btn-lg col-xs-12">J'accède à l'Emploi Store</button>
+                        </form>
                         <Link to={"/personnalSpace"}>
                         <button className="btn3 btn btn-lg col-xs-12">J'accède à mon espace personnel</button>
                         </Link>
