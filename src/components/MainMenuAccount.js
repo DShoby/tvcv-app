@@ -19,7 +19,9 @@ class MainMenuAccount extends Component {
                         </Link>
                         <button className="btn4 btn btn-lg col-xs-12">Je recherche des offres d'emploi</button>
                         <button className="btn2 btn btn-lg col-xs-12">J'accède à l'Emploi Store</button>
+                        <Link to={"/personnalSpace"}>
                         <button className="btn3 btn btn-lg col-xs-12">J'accède à mon espace personnel</button>
+                        </Link>
                     </div>
                     <div className="col-xs-6 desc-area">
                         <h4 className={"col-xs-12"}>Dates d'actualisation possibles.</h4>
