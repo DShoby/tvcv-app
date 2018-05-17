@@ -2,6 +2,7 @@
   "name": "tvcv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "ws2-esi-tvcv.alexisvachard.fr/borne",
   "dependencies": {
     "react": "^15.6.2",
     "react-bootstrap": "^0.32.1",

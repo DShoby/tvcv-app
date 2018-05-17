@@ -13,7 +13,7 @@ import {BrowserRouter} from "react-router-dom";
 class App extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter baseName={"/borne"}>
                 <div>
                     {
                         <div className={"app-content"}>
