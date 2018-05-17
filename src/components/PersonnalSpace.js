@@ -13,7 +13,7 @@ class PersonnalSpace extends Component {
                     <button className={"btn btn-lg quit col-xs-12"}>Accueil</button>
                 </Link>
                 <div className={"col-xs-10 col-xs-offset-1 mt1"}>
-                    <h3 className={"text-center"}>Je m'actualise</h3>
+                    <h3 className={"text-center"}>Mon espace personnel</h3>
                     <div className={"col-xs-10 col-xs-offset-3"}>
                         <div className="col-xs-8 col-ws-offet-2 btn-grp-1">
                             <Link to={"/maintenance"}>

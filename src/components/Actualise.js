@@ -25,14 +25,19 @@ class Actualise extends Component {
                     <h3 className={"text-center"}>Je m'actualise</h3>
                     <form className={"col-xs-8 col-xs-offset-2"}>
                         <div className={"form-group"}>
-                            <label htmlFor="nom">Nom</label>
-                            <input type="text" className="form-control" id="nom"
-                                   placeholder="Saisissez votre nom"/>
+                            <label htmlFor="rue">Rue et numéro de rue</label>
+                            <input type="text" className="form-control" id="rue"
+                                   placeholder="5 avenue des Lilas"/>
                         </div>
                         <div className={"form-group"}>
-                            <label htmlFor="prenom">Prénom</label>
-                            <input type="text" className="form-control" id="prenom"
-                                   placeholder="Saisissez votre prénom"/>
+                            <label htmlFor="ville">Ville</label>
+                            <input type="text" className="form-control" id="ville"
+                                   placeholder="Paris"/>
+                        </div>
+                        <div className={"form-group"}>
+                            <label htmlFor="cp">Code postal</label>
+                            <input type="text" className="form-control" id="cp"
+                                   placeholder="75000"/>
                         </div>
                         <button className={"center-block btn btn-lg mt1 validate"}>Valider mes modifications</button>
                     </form>
