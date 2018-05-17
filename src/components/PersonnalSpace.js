@@ -5,30 +5,32 @@ class PersonnalSpace extends Component {
     render() {
         return (
             <div className={"content-area"}>
+                <div className={"row"}>
                 <Link to={"/gotAccount"} className={"col-xs-1"}>
                     <button className={"back-btn btn btn-lg col-xs-12"}>Retour</button>
                 </Link>
                 <Link to={'/'} className={"col-xs-1 col-xs-offset-10"}>
-                    <button className={"btn btn-lg quit col-xs-12"}>Accueil</button>
+                    <button className={"btn btn-lg quit col-xs-11"}>Accueil</button>
                 </Link>
-                <div className={"col-xs-10 mt1"}>
+                </div>
+                <div className={"col-md-10 col-md-offset-1 mt1"}>
                     <h3 className={"text-center"}>Mon espace personnel</h3>
-                    <div className={"col-xs-10 col-xs-offset-3"}>
-                        <div className="col-xs-8 col-ws-offet-2 btn-grp-1">
-                            <Link to={"/maintenance"}>
-                                <button className="center-block btn0 btn btn-lg col-xs-10">Je crée ou modifie mon CV</button>
+                    <div className={"col-md-12"}>
+                        <div className="col-md-12 btn-grp-1">
+                            <Link to={"/maintenance"} className={"col-md-12"}>
+                                <button className="btn0 btn btn-lg col-xs-8 col-xs-offset-2">Je crée ou modifie mon CV</button>
                             </Link>
-                            <Link to={"/maintenance"}>
-                                <button className="center-block btn1 btn btn-lg col-xs-10">Je trouve une formation</button>
+                            <Link to={"/maintenance"} className={"col-md-12"}>
+                                <button className="btn1 btn btn-lg col-xs-8  col-xs-offset-2">Je trouve une formation</button>
                             </Link>
-                            <Link to={"/maintenance"}>
-                                <button className="center-block btn2 btn btn-lg col-xs-10">Je consulte mes paiements</button>
+                            <Link to={"/maintenance"} className={"col-md-12"}>
+                                <button className="btn2 btn btn-lg col-xs-8  col-xs-offset-2">Je consulte mes paiements</button>
                             </Link>
-                            <Link to={"/maintenance"}>
-                                <button className="center-block btn1 btn btn-lg col-xs-10">J'imprime mes attestations</button>
+                            <Link to={"/maintenance"} className={"col-md-12"}>
+                                <button className="btn1 btn btn-lg col-xs-8  col-xs-offset-2">J'imprime mes attestations</button>
                             </Link>
-                            <Link to={"/maintenance"}>
-                                <button className="center-block btn0 btn btn-lg col-xs-10">Je signale un changement</button>
+                            <Link to={"/maintenance"} className={"col-md-12"}>
+                                <button className="btn0 btn btn-lg col-xs-8  col-xs-offset-2">Je signale un changement</button>
                             </Link>
                         </div>
                     </div>
