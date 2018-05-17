@@ -6,11 +6,11 @@ class MainMenuAccount extends Component {
     render() {
         return (
             <div className={"content-area"}>
-                <Link to={"/"}>
-                <button className={"back-btn btn btn-lg col-xs-1"}>Retour</button>
+                <Link to={"/"} className={"col-xs-1"}>
+                <button className={"back-btn btn btn-lg col-xs-12"}>Retour</button>
                 </Link>
-                <Link to={'/'}>
-                    <button className={"btn btn-lg quit col-xs-1"}>Accueil</button>
+                <Link to={'/'} className={"col-xs-1 col-xs-offset-10"}>
+                    <button className={"btn btn-lg quit col-xs-12"}>Accueil</button>
                 </Link>
                 <div className={"col-xs-10 col-xs-offset-1"}>
                     <div className="col-xs-6 btn-grp-1">
