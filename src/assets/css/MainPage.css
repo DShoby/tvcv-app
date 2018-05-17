@@ -3,7 +3,7 @@
 }
 
 .btn2 {
-    background-color: #0277bd;
+    background-color: #29b6f6;
 }
 
 .btn3 {
@@ -15,18 +15,18 @@
 }
 
 .btn0{
-    background-color: #ef5350;
+    background-color: #01579b;
 }
 
 .tooltip0{
     margin-top: 1rem;
     padding: 1rem;
-    background-color: #ffebee;
+    background-color: #e1f5fe;
 }
 
 .btn1, .btn2, .btn3, .btn0, .btn4 {
     margin: 2rem;
-    padding: 2rem !important;
+    padding: 3rem !important;
     color: #fff;
 }
 

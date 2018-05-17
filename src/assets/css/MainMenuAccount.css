@@ -1,23 +1,22 @@
 .content-area{
     height: 100%;
     width: 100%;
-    background-color: #e1f5fe!important;
 }
 
 .desc-area{
-    margin-top: 6%;
+    margin-top: 7%;
 }
 
 .mt{
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 .mt-1{
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 .mt-2{
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 .back-btn{
@@ -32,9 +31,6 @@
 }
 
 .quit{
-    float: right!important;
-    margin-right: 1rem!important;
-    margin-top: 1rem!important;
     background-color: #006064;
     color: #fff!important;
 }

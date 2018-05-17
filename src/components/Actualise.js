@@ -15,7 +15,7 @@ class Actualise extends Component {
                         </button>
                     </Link>
                     <div className={"col-xs-5"}>
-                        <button className={"btn btn-lg mt1 col-xs-12 help-btn1"}>Demander l'aide du personnel</button>
+                        <button className={"btn btn-lg col-xs-12 help-btn1"}>Demander l'aide du personnel</button>
                     </div>
                     <Link to={'/'} className={"col-xs-1"}>
                         <button className={"btn btn-lg quit col-xs-12"}>Accueil</button>
