@@ -8,7 +8,7 @@ class Maintenance extends Component {
             <div className={"content-area"}>
                 <div className={"row"}>
                     <Link to={'/'} className={"col-xs-1 col-xs-offset-11"}>
-                        <button className={"btn btn-lg quit col-xs-12"}>Accueil</button>
+                        <button className={"btn btn-lg quit col-xs-11"}>Accueil</button>
                     </Link>
                 </div>
 
